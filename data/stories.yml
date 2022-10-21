@@ -1,0 +1,93 @@
+version: "3.1"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: affirm
+  steps:
+  - intent: affirm
+  - action:   utter_happy
+
+
+- story: sad
+  steps:
+  - intent: mood_unhappy
+  - action: utter_sad
+  - action: utter_help
+  # - intent: bot_exam
+  # - action: utter_botexam
+  
+- story: Topic_Anemia
+  steps:
+  - intent: Topic_Anemia
+  - action: utter_Topic_Anemia
+
+- story: Topic_anatomy
+  steps:
+  - intent: Topic_anatomy
+  - action: utter_Topic_anatomy
+
+- story: Topic_cardiology
+  steps:
+  - intent: Topic_cardiology
+  - action: utter_Topic_cardiology
+
+
+- story: Topic_AnemiaType
+  steps:
+  - intent: Topic_AnemiaType
+  - action: utter_Topic_AnemiaType
+
+- story: Topic_anatomyType
+  steps:
+  - intent: Topic_anatomyType
+  - action: utter_Topic_anatomyType
+
+- story: Topic_cardiologyType
+  steps:
+  - intent: Topic_cardiologyType
+  - action: utter_Topic_cardiologyType
+
+
+- story: Topic_Symptomsofanatomy
+  steps:
+  - intent: Topic_Symptomsofanatomy
+  - action: utter_Topic_Symptomsofanatomy
+
+- story: Topic_SymptomsofAnemia
+  steps:
+  - intent: Topic_SymptomsofAnemia
+  - action: utter_Topic_SymptomsofAnemia
+
+- story: Topic_Symptomsofcardiology
+  steps:
+  - intent: Topic_Symptomsofcardiology
+  - action: utter_Topic_Symptomsofcardiology
+
+
+- story: Greatings
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: utter_help
+  # - intent: bot_exam
+  # - action: utter_botexam
+
+
+
+
+# - story: moreinfo
+#   steps:
+#   - intent: moreinfo
+#   - action: action_hello_world

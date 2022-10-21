@@ -1,0 +1,190 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yo
+    - hmmm
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am good
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am not feeling well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+# - intent: bot_challenge
+#   examples: |
+#     - are you a bot?
+#     - are you a human?
+#     - am I talking to a bot?
+#     - am I talking to a human?
+
+- intent: bot_exam
+  examples: |
+    - start a new test?
+    - exam?
+    - Ready for test?
+    - Test?
+    - Give the exam?
+
+- intent: Topic_Anemia
+  examples: |
+    - What is Anemia?
+    - What do you mean by Anemia?
+    - Do you understand Anemia?
+    - Anemia is what?
+    - Define Anemia?
+
+
+- intent: Topic_AnemiaType
+  examples: |
+    - What are the types of Anemia?
+    - What are different kinds of Anemia?
+    - How many types of Anemia?
+    - Number of Anemia Types
+
+- intent: Topic_SymptomsofAnemia
+  examples: |
+    - What are the Symptoms of Anemia?
+    - Sign of Anemia?
+    - indicator of Anemia?
+    - Anemia indication
+
+- intent: Topic_anatomy
+  examples: |
+    - What is anatomy?
+    - What do you mean by anatomy?
+    - Do you understand anatomy?
+    - anatomy is what?
+    - Define anatomy?
+
+- intent: Topic_anatomyType
+  examples: |
+    - What are the types of anatomy?
+    - What are different kinds of anatomy?
+    - How many types of anatomy?
+    - Number of anatomy Types
+
+- intent: Topic_Symptomsofanatomy
+  examples: |
+    - What are the Symptoms of anatomy?
+    - Sign of anatomy?
+    - indicator of anatomy?
+    - anatomy indication
+
+- intent: Topic_cardiology
+  examples: |
+    - What is cardiology?
+    - What do you mean by cardiology?
+    - Do you understand cardiology?
+    - cardiology is what?
+    - Define cardiology?
+
+- intent: Topic_cardiologyType
+  examples: |
+    - What are the types of cardiology?
+    - What are different kinds of cardiology?
+    - How many types of cardiology?
+    - Number of cardiology Types
+
+- intent: Topic_Symptomsofcardiology
+  examples: |
+    - What are the Symptoms of cardiology?
+    - Sign of cardiology?
+    - indicator of cardiology?
+    - cardiology indication
+
+
+
+- intent: Dont_know
+  examples: |
+    - Do you know the answer
+    - What is the possible Solution
+    - what is the solution
+    - have a possible solutions
+    - anything to help
+    - whats up
+
+
+
+
+# - intent: moreinfo
+  # examples: |
+  #   - want to know more
+  #   - know something more

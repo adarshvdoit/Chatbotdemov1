@@ -1,0 +1,37 @@
+version: '3.1'
+intents:
+- AnemiaType
+- Question
+- affirm
+- bot_challenge
+- bot_exam
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+responses:
+  utter_greet:
+  - text: Hey
+  utter_cheer_up:
+  - text: 'what is the problem '
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_botexam:
+  - text: So let Start the test.
+  utter_Question:
+  - text: A condition in which the blood doesn't have enough healthy red blood cells. Anaemia results from a lack of red blood cells or dysfunctional red blood cells in the body. This leads to reduced oxygen flow to the body's organs. Symptoms may include fatigue, skin pallor, shortness of breath, light-headedness, dizziness or a fast heartbeat. Treatment depends on the underlying diagnosis. Iron supplements can be used for iron deficiency. Vitamin B supplements may be used for low vitamin levels. Blood transfusions can be used for blood loss. Medication to induce blood formation may be used if the body’s blood production is reduced.
+  utter_AnemiaType:
+  - text: "There are more than 400 types of anemia, and they're divided into three groups: Anemia caused by blood loss. Anemia caused by decreased or faulty red blood cell production. Anemia caused by destruction of red blood cells."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_Question
+- utter_greet

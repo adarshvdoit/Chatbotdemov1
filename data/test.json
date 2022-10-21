@@ -1,0 +1,20 @@
+ {
+   "Answer":   "C.\tIron studies",
+   "Description": [
+    "A is incorrect because a blood transfusion isn’t indicated at this moment (Hb not low enough); more important to look for cause of issue",
+    "B is incorrect because it is premature; we don’t have a diagnosis of iron deficiency yet and going straight to an invasive procedure such as an endoscopy is not warranted with just a low MCV and symptoms ",
+    "C is the correct answer because iron studies will confirm the diagnosis and allow us to evaluate the patient further for a cause", 
+    "D is incorrect because prescribing ferrous sulfate will not solve the problem, it will just mask the symptoms ",
+    "E is incorrect because, even though it is a good idea, it is not the next best step; we have confirmed the cause of our patient’s issues yet. First we have to diagnose the patient, then look for the source of the problem, and then change the medications"
+   ],
+   "Hint": "between 'a' or 'c'",
+   "options": [
+    "A.\tProvide a blood transfusion",
+    "B.\tPerform upper GI endoscopy", 
+    "C.\tIron studies",
+    "D.\tPrescribe ferrous sulfate",
+    "E.\tSwitch ibuprofen to Tylenol",
+    
+   ],
+   "questionText": "76 y.o. M presents with decreased exercise tolerance and fatigue. He has significant past medical history, but does have a history of frequent tension headaches for which he takes ibuprofen to relieve the pain. Vitals are within normal limits and physical examination has no significant positives. Lab results show: Hb 9.1 mg/dL, MCV 74fl, creatinine 1.4 mg/dL, ESR 12 mm/hr. What is the next best step in management?"
+  }

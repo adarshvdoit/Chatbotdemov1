@@ -1,0 +1,94 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  # - bot_challenge
+  # - bot_exam
+  - Topic_Anemia
+  - Topic_AnemiaType
+  - Topic_SymptomsofAnemia
+  - action_hello_world
+  - Topic_anatomy
+  - Topic_anatomyType
+  - Topic_Symptomsofanatomy
+  - Topic_cardiology
+  - Topic_cardiologyType
+  - Topic_Symptomsofcardiology
+  # - moreinfo
+
+
+
+responses:
+  utter_greet:
+  - text: "Hi, my name is Alex. How are you?"
+
+  utter_cheer_up:
+  - text: "what is the problem "
+  
+  # utter_did_that_help:
+  # - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great to hear that."
+
+  utter_sad:
+  - text: "Sad to hear that, hope you get well soon."
+
+  utter_goodbye:
+  - text: "Bye"
+  utter_help:
+  - text: "How can I Help You"
+  utter_resumeTest:
+  # - text: "Shall we resume the previous test series or start a new one. Or you can choose from other options too"
+  - text: "Shall we resume the previous topics or start a new one. Or you can choose from other options too"
+  utter_TestOptions:
+  # - text: "1) Resume the previous one. 2) Start a new one. 3) Participate in a competition."
+  - text: "1) Resume the previous one. 2) Start a new one."
+
+
+  # utter_iamabot:
+  # - text: "I am a bot, powered by Rasa."
+
+  # utter_botexam:
+  # - text: "Please choose a topic 1) Anemia 2) Cardiology 3) Anatomy"
+  
+  utter_Topic_Anemia:
+  - text: "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia, also referred to as low hemoglobin, can make you feel tired and weak."
+
+  utter_Topic_AnemiaType:
+  - text: "There are Five types of Anemia 1) Aplastic anemia, 2) Iron deficiency anemia, 3) Sickle cell anemia, 4) Thalassemia, 5) Vitamin deficiency anemia"
+
+  utter_Topic_SymptomsofAnemia:
+  - text: "The Symptoms of Anemia Fatigue 1) Weakness, 2)Pale or yellowish skin, 3)Irregular heartbeats, 4)Shortness of breath, 5)Dizziness or lightheadedness, 6)Chest pain, 7)Cold hands and feet, 8)Headaches"
+
+  utter_Topic_anatomy:
+  - text: "anatomy, a field in the biological sciences concerned with the identification and description of the body structures of living things. Gross anatomy involves the study of major body structures by dissection and observation and in its narrowest sense is concerned only with the human body."
+
+  utter_Topic_anatomyType:
+  - text: "There are several types of anatomy including gross anatomy, microscopic anatomy, human anatomy, phytotomy, zootomy, embryology, and comparative anatomy."
+
+  utter_Topic_Symptomsofanatomy:
+  - text: "A symporter is an integral membrane protein that is involved in the transport of two different molecules across the cell membrane in the same direction. The symporter works in the plasma membrane and molecules are transported across the cell membrane at the same time, and is, therefore, a type of cotransporter."
+
+  utter_Topic_cardiology:
+  - text: "Cardiology is a branch of medicine that deals with disorders of the heart and the cardiovascular system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology."
+
+  utter_Topic_cardiologyType:
+  - text: "There are three main types of cardiology: invasive, non-invasive, and interventional. Your cardiologist may use one or a combination of techniques to identify and treat your heart condition."
+
+  utter_Topic_Symptomsofcardiology:
+  - text: "Chest pain, chest tightness, chest pressure and chest discomfort (angina) Shortness of breath. Pain in the neck, jaw, throat, upper belly area or back. Pain, numbness, weakness or coldness in the legs or arms if the blood vessels in those body areas are narrowed."
+
+  utter_default:
+  - text: "Sorry I dont know the answer."
+
+  # utter_info:
+  # - text: "nothing"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
